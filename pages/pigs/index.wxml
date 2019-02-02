@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="pig-content">
+    <canvas canvas-id="J-pig-canvas" 
+      style=" width: {{ initImgWid * imgScale }}px; height: {{ initImgHei * imgScale }}px; "></canvas>
+
+    <view>
+      <button class="btn-style" bindtap="generateImage">保存图片</button>
+      <button open-type="share" class="btn-style">跟朋友炫耀下</button>
+    </view>
+  </view>
+
+  <!-- 隐藏调用生成 -->
+  <canvas class="hidden-canvas" canvas-id="J-genarate-canvas"
+      style="width: {{ initImgWid }}px; height: {{ initImgHei }}px;"></canvas>
+</view>

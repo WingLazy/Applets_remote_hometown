@@ -1,13 +1,15 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="home-content">
+      <image class="logo-bg" src="https://s1.tuchong.com/content-image/201902/4bed2f9f73f8ddde0c7980c6f80cd86c.png"></image>
+      
+      <image mode="aspectFit" class="logo-drawlots {{ !drawing ? 'show' : '' }}"
+      src="https://s1.tuchong.com/content-image/201902/3d38f24e862e678304aad6f8c53a1b1f.png"></image>
+
+      <image mode="aspectFit" class="logo-drawlots {{ !!drawing ? 'show' : '' }}" src="https://s1.tuchong.com/content-image/201902/6625b2fc046c827a017d46be5e2a6ec6.gif"></image>
+
+      <button class="btn-style drawlots-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        点此开启
+      </button>
   </view>
 </view>

@@ -1,0 +1,29 @@
+@import "../../style/common.wxss";
+
+.pig-content {
+  padding-top: 30rpx;
+  text-align: center;
+}
+
+canvas {
+  display: inline-block;
+}
+
+.hidden-canvas {
+  position: absolute;
+  visibility: hidden;
+  left: 10000rpx;
+  top: 0;
+}
+
+.btn-style {
+  display: inline-block;
+  width: 250rpx;
+  font-size: 28rpx;
+  line-height: 100rpx;
+}
+
+.btn-style:first-child {
+  margin-right: 20rpx;
+}
+

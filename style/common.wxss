@@ -1,0 +1,10 @@
+page {
+  background: #F9192F;
+  color: #B18F7C;
+}
+
+.btn-style {
+  background-color: #FAF3D7;
+  border-radius: 0;
+  color: #B18F7C;
+}
