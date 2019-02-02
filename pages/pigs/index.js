@@ -78,7 +78,7 @@ Page({
   onShareAppMessage() {
     return {
       title: `${this.data.nickName} 抽中了 ${PIG_TAG_SRC[this.data.userTagIndex].tag}, 快来看看你的吧`,
-      path: 'pages/pigs/index'
+      path: 'pages/index/index'
     }
   },
 

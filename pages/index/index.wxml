@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="home-content">
-      <image class="logo-bg" src="https://s1.tuchong.com/content-image/201902/4bed2f9f73f8ddde0c7980c6f80cd86c.png"></image>
+      <image mode="aspectFit" class="logo-bg" src="https://s1.tuchong.com/content-image/201902/4bed2f9f73f8ddde0c7980c6f80cd86c.png"></image>
       
       <image mode="aspectFit" class="logo-drawlots {{ !drawing ? 'show' : '' }}"
       src="https://s1.tuchong.com/content-image/201902/3d38f24e862e678304aad6f8c53a1b1f.png"></image>
@@ -9,7 +9,7 @@
       <image mode="aspectFit" class="logo-drawlots {{ !!drawing ? 'show' : '' }}" src="https://s1.tuchong.com/content-image/201902/6625b2fc046c827a017d46be5e2a6ec6.gif"></image>
 
       <button class="btn-style drawlots-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
-        点此开启
+        抽个猪猪签
       </button>
   </view>
 </view>
