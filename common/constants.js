@@ -2,36 +2,49 @@
 const PIG_TAG_SRC = [
   {
     tag: '爱情猪',
+    desc: '',
     src: 'https://s1.tuchong.com/content-image/201902/4a26a2376c9a87d955046939c9555f79.jpg'
   },
   {
     tag: '暴富猪',
+    desc: '',
     src: 'https://s1.tuchong.com/content-image/201902/e52567225d241ccabe5fb2275949af1f.jpg'
   },
   {
     tag: '吃货猪',
+    desc: '',
     src: 'https://s1.tuchong.com/content-image/201902/c3050b7ed05ecfe8eb11437fb012c529.jpg'
   },
   {
     tag: '事业猪',
+    desc: '',
     src: 'https://s1.tuchong.com/content-image/201902/96442097640d6233153bf62a499a663d.jpg'
   },
   {
     tag: '友情猪',
+    desc: '',
     src: 'https://s1.tuchong.com/content-image/201902/5f0830dd369808e0c4b31208775d5d06.jpg'
   },
   {
     tag: '佩奇猪',
+    desc: '稀有',
     src: 'https://s1.tuchong.com/content-image/201902/de0d7722844e038e3af1b53bcd1211fa.jpg'
   },
   {
     tag: '麦兜猪',
+    desc: '稀有',
     src: 'https://s1.tuchong.com/content-image/201902/04641473470dda51c904a1f4dd631166.jpg'
   },
   {
     tag: '八戒猪',
+    desc: '稀有',
     src: 'https://s1.tuchong.com/content-image/201902/a81494df1100630119d2aa6726f97d95.jpg'
   },
+  {
+    tag: '七龙猪',
+    desc: '极品',
+    src: 'https://s1.tuchong.com/content-image/201902/a4364982ac88e6186b83cfb21811f3ea.jpg'
+  }
 ]
 
 // 小程序二维码

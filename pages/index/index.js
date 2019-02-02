@@ -71,18 +71,23 @@ Page({
     }, 2000)
   },
 
-  // 随机概率 一共8只猪 5只普通，3只special 普通 & special 概率是 7 : 3
+  // 随机概率 一共8只猪 5只普通，3只special，1只superSp 普通 & special & superSp 概率是 70 : 25 : 5
   probabilityIndex() {
-    let count = PIG_TAG_SRC.length,
-      normal = 5, 
-      special = 3
+    let normal = 5, 
+      special = 3,
+      superSp = 1
 
     // 乘以一个比较大的数 后取余 能保证概率准确，让就算不够准确也可以缩小误差
-    let random = Math.floor(Math.random() * 10000 % count), tagIndex = -1
-    if (random < 7) {
-      tagIndex = Math.floor(Math.random() * 10000 % normal)
-    } else {
-      tagIndex = 5 + Math.floor(Math.random() * 10000 % special)
+    let random = Math.floor(Math.random() * 10000 % 10), tagIndex = -1
+    switch(true) {
+      case (Math.floor(Math.random() * 10000 % 10) < 7):
+        tagIndex = Math.floor(Math.random() * 10000 % normal)
+        break
+      case (Math.floor(Math.random() * 10000 % 6) < 5):
+        tagIndex = normal + Math.floor(Math.random() * 10000 % special)
+        break
+      default: 
+        tagIndex = normal + special
     }
 
     return tagIndex
