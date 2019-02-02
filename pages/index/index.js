@@ -33,8 +33,10 @@ Page({
   // 判断是否已存在用户数据，每个用户只允许抽一次
   judgeHasTag() {
     let userTagIndex = wx.getStorageSync(USER_DRAWLOTS_KEY)
+
+    if (userTagIndex === undefined || userTagIndex === '') return
     
-    userTagIndex !== undefined && wx.redirectTo({
+    wx.redirectTo({
       url: '/pages/pigs/index',
     })
   },

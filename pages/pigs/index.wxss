@@ -1,7 +1,7 @@
 @import "../../style/common.wxss";
 
 .pig-content {
-  padding-top: 30rpx;
+  padding: 30rpx 25rpx 0;
   text-align: center;
 }
 
@@ -16,14 +16,14 @@ canvas {
   top: 0;
 }
 
-.btn-style {
-  display: inline-block;
-  width: 250rpx;
-  font-size: 28rpx;
-  line-height: 100rpx;
+.btn-list {
+  display: flex;
+  justify-content: space-between;
 }
 
-.btn-style:first-child {
-  margin-right: 20rpx;
+.btn-style {
+  width: 290rpx;
+  font-size: 30rpx;
+  line-height: 100rpx;
 }
 

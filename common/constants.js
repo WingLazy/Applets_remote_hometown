@@ -2,7 +2,7 @@
 const PIG_TAG_SRC = [
   {
     tag: '爱情猪',
-    src: 'https://s1.tuchong.com/content-image/201902/9b9d52fc2940986e8a3f0373a034125a.jpg'
+    src: 'https://s1.tuchong.com/content-image/201902/4a26a2376c9a87d955046939c9555f79.jpg'
   },
   {
     tag: '暴富猪',
@@ -10,7 +10,7 @@ const PIG_TAG_SRC = [
   },
   {
     tag: '吃货猪',
-    src: 'https://s1.tuchong.com/content-image/201902/06426f074b1f286d85b6622208bff5ca.jpg'
+    src: 'https://s1.tuchong.com/content-image/201902/c3050b7ed05ecfe8eb11437fb012c529.jpg'
   },
   {
     tag: '事业猪',
@@ -18,7 +18,7 @@ const PIG_TAG_SRC = [
   },
   {
     tag: '友情猪',
-    src: 'https://s1.tuchong.com/content-image/201902/07c09270f9a9dac00f12d684399f0b0e.jpg'
+    src: 'https://s1.tuchong.com/content-image/201902/5f0830dd369808e0c4b31208775d5d06.jpg'
   },
   {
     tag: '佩奇猪',

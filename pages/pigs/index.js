@@ -13,7 +13,7 @@ Page({
   data: {
     userTagIndex: -1,
     nickName: '',
-    scaleRpxWid: 600, // rpx 自适应
+    scaleRpxWid: 700, // rpx 自适应
     rpxScale: 1, // windowWidth / 750 每一个 rpx 代表的 px
     imgScale: 1,
     initImgWid: 882,
