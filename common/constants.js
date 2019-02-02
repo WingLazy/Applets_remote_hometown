@@ -22,15 +22,15 @@ const PIG_TAG_SRC = [
   },
   {
     tag: '佩奇猪',
-    src: 'https://s1.tuchong.com/content-image/201902/6fa25a61d143254acab67e154d0a4cc7.jpg'
+    src: 'https://s1.tuchong.com/content-image/201902/de0d7722844e038e3af1b53bcd1211fa.jpg'
   },
   {
     tag: '麦兜猪',
-    src: 'https://s1.tuchong.com/content-image/201902/ac91a29a3a66c45e15f38629c3d5e441.jpg'
+    src: 'https://s1.tuchong.com/content-image/201902/04641473470dda51c904a1f4dd631166.jpg'
   },
   {
     tag: '八戒猪',
-    src: 'https://s1.tuchong.com/content-image/201902/20a279725a4cb505625b78acbb91042c.jpg'
+    src: 'https://s1.tuchong.com/content-image/201902/a81494df1100630119d2aa6726f97d95.jpg'
   },
 ]
 
